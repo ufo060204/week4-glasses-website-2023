@@ -1,0 +1,23 @@
+.header-bg {
+  background-image: url('../images/home-header-sm.png');
+  height: 396px;
+  @include media-breakpoint-between(lg, xxl) {
+    background-image: url('../images/home-header.png');
+    height: 787px;
+  };
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.collaboration-bg {
+  background-image: url('../images/index-bg-sm.png');
+  @include media-breakpoint-only(md) {
+    background-image: url('../images/index-bg-md.png');
+  };
+  @include media-breakpoint-between(lg, xxl) {
+    background-image: url('../images/index-bg.png');
+  };
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
